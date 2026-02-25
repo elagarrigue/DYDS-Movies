@@ -58,3 +58,10 @@ compose.desktop {
         }
     }
 }
+
+tasks.withType<JavaExec>().configureEach {
+    if (name == "desktopRun") {
+        mainClass.set("edu.dyds.movies.MainKt")
+    }
+}
+

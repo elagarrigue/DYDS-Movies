@@ -32,14 +32,14 @@
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# .idea/artifacts
-# .idea/compiler.xml
-# .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
+.idea/artifacts
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+*.iml
+*.ipr
 
 # CMake
 cmake-build-*/
@@ -78,3 +78,14 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /composeApp/build/
 /.gradle/
+local.properties
+
+# Claude Code
+.claude/
+
+# Android Project System (IDE-generated, not needed for KMP desktop)
+.idea/AndroidProjectSystem.xml
+
+# Code style and JDK config (machine-specific)
+.idea/codeStyles/
+.idea/misc.xml
