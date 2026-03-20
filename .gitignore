@@ -83,6 +83,12 @@ local.properties
 # Claude Code
 .claude/
 
+# macOS
+.DS_Store
+
+# Root build directory
+/build/
+
 # Android Project System (IDE-generated, not needed for KMP desktop)
 .idea/AndroidProjectSystem.xml
 
